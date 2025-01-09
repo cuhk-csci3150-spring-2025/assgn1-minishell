@@ -9,8 +9,8 @@
 INPUT_DIR=./testcases/input/
 OUTPUT_DIR=./testcases/output/
 PROG_DIR=./
-EXEC=asg2-shell
-EXEC_GRADE=demo-asg2
+EXEC=asg1-shell
+EXEC_GRADE=demo-asg1
 TOTAL_CASES=30
 
 # have fun with colors and styles :)
