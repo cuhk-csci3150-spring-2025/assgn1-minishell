@@ -29,12 +29,12 @@ diff_flags="-Z -b -B"
 function main {
     # Check if files exist
     if [ ! -f ${EXEC} ]; then
-      echo -e "${BD}${RED}Cannot find your shell executable: asg2-shell!${ED}"
+      echo -e "${BD}${RED}Cannot find your shell executable: asg1-shell!${ED}"
       exit -1
     fi
 
     if [ ! -f ${EXEC_GRADE} ]; then
-      echo -e "${BD}${RED}Cannot find the demo executable: demo-asg2!${ED}"
+      echo -e "${BD}${RED}Cannot find the demo executable: demo-asg1!${ED}"
       exit -1
     fi
 
